@@ -1,0 +1,25 @@
+# Data (keep folder, ignore contents)
+data/*
+!data/.gitkeep
+
+
+# Checkpoints (keep folder, ignore contents)
+checkpoints/*
+!checkpoints/.gitkeep
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+
+# Generated artifacts
+*.npy
+*.log
+
+
+# IDE / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
