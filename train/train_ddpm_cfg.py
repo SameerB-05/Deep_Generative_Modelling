@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 from models.ddpm_cfg.model import DDPM_CFG, NUM_CLASSES
 
-CKPT_DIR = "checkpoints/ddpm"
+CKPT_DIR = "checkpoints/ddpm_cfg"
 os.makedirs(CKPT_DIR, exist_ok=True)
 
 CKPT_PATH = f"{CKPT_DIR}/ddpm_cfg_mnist_best.pth"

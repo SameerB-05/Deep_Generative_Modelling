@@ -41,8 +41,8 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     model = DDPM_eps().to(device)
-    ckpt = torch.load("checkpoints/ddpm/best_ddpm_mnist.pth", map_location=device)
-    model.load_state_dict(ckpt["model"])
+    ckpt = torch.load("checkpoints/ddpm/ddpm_mnist_best.pth", map_location=device, weights_only=True)
+    model.load_state_dict(ckpt["model_state_dict"])
     model.eval()
 
     samples = sample(model, (16, 1, 32, 32), device).cpu()
