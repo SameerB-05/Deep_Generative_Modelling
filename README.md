@@ -40,6 +40,7 @@ The course provided the theoretical foundations for variational inference, adver
 
 ## Repository Structure
 
+```
 Deep_Generative_Modelling/
 ├── models/
 │   ├── vae/
@@ -53,6 +54,7 @@ Deep_Generative_Modelling/
 ├── legacy/
 ├── requirements.txt
 └── README.md
+```
 
 ## Purpose
 
