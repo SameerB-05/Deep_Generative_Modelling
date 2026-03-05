@@ -7,7 +7,7 @@ This repository contains learning-oriented PyTorch implementations of basic deep
 
 The implementations in this repository were developed after completing the lecture series:
 
-**Mathematical Foundations of Generative AI**  
+**Mathematical Foundations of Generative AI - [YouTube Playlist](https://youtube.com/playlist?list=PLZ2ps__7DhBa5xCmncgH7kPqLqMBq7xlu)**  
 Instructor: Prof. Prathosh A P  
 Offered by IIT Madras  
 Division of Electrical, Electronics, and Computer Science (EECS), IISc Bangalore  
